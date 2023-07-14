@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Routes, Route } from 'react-router-dom';
+//import { HashRouter as Routes, Route } from 'react-router-dom';
 
 //Components
 import Navigation from "./components/Navigation";
@@ -14,11 +14,12 @@ function App(){
       <div style={styles.wrapper}>
         <Navigation />
         <div>
-          <Routes>
+          {/* <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/Home" element={<Home />}/>
             
-          </Routes>
+          </Routes> */}
+          <Home />
         </div>
         <Footer />
       </div>
