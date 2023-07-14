@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/piotrowskibrittany/static/css/main.073c9b0a.css",
-    "main.js": "/piotrowskibrittany/static/js/main.e795ddcc.js",
+    "main.css": "/piotrowskibrittany/static/css/main.e6c13ad2.css",
+    "main.js": "/piotrowskibrittany/static/js/main.03d2b0a4.js",
     "static/js/787.9f9666a1.chunk.js": "/piotrowskibrittany/static/js/787.9f9666a1.chunk.js",
-    "static/media/logo.svg": "/piotrowskibrittany/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/puparazzi.png": "/piotrowskibrittany/static/media/puparazzi.1892cd5bb139e02e3713.png",
+    "static/media/popcorner.png": "/piotrowskibrittany/static/media/popcorner.7a411f85a12d314b0963.png",
+    "static/media/eventite.png": "/piotrowskibrittany/static/media/eventite.b59e8b997681eff53c1f.png",
+    "static/media/everybank.png": "/piotrowskibrittany/static/media/everybank.f5899daaf8dd0c4917e2.png",
+    "static/media/strivesimple.png": "/piotrowskibrittany/static/media/strivesimple.e9647656b8fae23f6783.png",
+    "static/media/taskmanager.png": "/piotrowskibrittany/static/media/taskmanager.5a1068384ad6c5e0a4ee.png",
+    "static/media/logo_small.png": "/piotrowskibrittany/static/media/logo_small.506f39d1bde93da1d9c8.png",
     "index.html": "/piotrowskibrittany/index.html",
-    "main.073c9b0a.css.map": "/piotrowskibrittany/static/css/main.073c9b0a.css.map",
-    "main.e795ddcc.js.map": "/piotrowskibrittany/static/js/main.e795ddcc.js.map",
+    "main.e6c13ad2.css.map": "/piotrowskibrittany/static/css/main.e6c13ad2.css.map",
+    "main.03d2b0a4.js.map": "/piotrowskibrittany/static/js/main.03d2b0a4.js.map",
     "787.9f9666a1.chunk.js.map": "/piotrowskibrittany/static/js/787.9f9666a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e795ddcc.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.03d2b0a4.js"
   ]
 }
