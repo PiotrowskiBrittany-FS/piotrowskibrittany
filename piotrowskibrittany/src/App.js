@@ -28,3 +28,15 @@ function App(){
 
 
 export default App;
+
+
+const styles = {
+  container:{
+    backgroundColor: '#071516',
+    height: "100%",
+    width: "100%"
+  },
+  wrapper: {
+    padding: "2rem",
+  },
+}
