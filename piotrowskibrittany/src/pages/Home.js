@@ -144,7 +144,7 @@ const styles ={
         fontWeight: 'bold',
         marginBottom: '1rem',
         marginRight: '1rem',
-        width: '5rem',
+        width: '50%',
         textAlign: 'center',
         height: '1rem'
     },
