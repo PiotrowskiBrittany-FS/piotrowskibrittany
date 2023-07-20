@@ -124,7 +124,8 @@ const styles ={
     },
     skillsContainer: {
         display: 'flex',
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
+        flexWrap: 'wrap'
     },
     about: {
         padding: '1rem',
