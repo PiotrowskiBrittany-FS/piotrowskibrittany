@@ -47,6 +47,8 @@ const Home = () =>{
                     <p>Snippet of Project</p><button>More Info</button>
                     <button>GitHub</button>
                 </div>
+            </div>
+            <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Project Name</h2>
                     <img style={styles.projectImg} src={EveryBank} alt="every bank"></img>
@@ -61,6 +63,8 @@ const Home = () =>{
                     <p>Snippet of Project</p><button>More Info</button>
                     <button>GitHub</button>
                 </div>
+            </div>
+            <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Project Name</h2>
                     <img style={styles.projectImg} src={Puparazzi} alt="puparazzi"></img>
@@ -75,6 +79,8 @@ const Home = () =>{
                     <p>Snippet of Project</p><button>More Info</button>
                     <button>GitHub</button>
                 </div>
+            </div>
+            <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Project Name</h2>
                     <img style={styles.projectImg} src={TaskManager} alt="task manager"></img>
@@ -151,13 +157,16 @@ const styles ={
     },
     projectSection: {
         display: 'flex',
-        justifyContent: 'space-around'
+        justifyContent: 'center',
+        flexWrap: 'wrap',
+        paddingBottom: '2.5rem'
     },
     project: {
         padding: '1rem',
+        textAlign: 'center'
     },
     projectImg: {
         width: '75%',
-        height: '50%'
+        height: '60%',
     }
 }
