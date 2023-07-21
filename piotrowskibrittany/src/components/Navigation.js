@@ -1,15 +1,14 @@
 import React from "react";
-import {Link} from 'react-router-dom';
 
 const Navigation = ()=>{
     return(
         <div style={styles.container}>
             <div style={styles.buttons}>
-                <Link style={styles.links} to="/About">About</Link>
-                <Link style={styles.links} to="/About">Skills</Link>
-                <Link style={styles.links} to="/About">Projects</Link>
-                <Link style={styles.links} to="/About">Contact</Link>
-                <Link style={styles.links} to="/About">Resume</Link>
+                <a href="" style={styles.links}>About</a>
+                <a href="" style={styles.links}>Skills</a>
+                <a href="" style={styles.links}>Projects</a>
+                <a href="" style={styles.links}>Contact</a>
+                <a href="" style={styles.links}>Resume</a>
             </div>
         </div>
     )
