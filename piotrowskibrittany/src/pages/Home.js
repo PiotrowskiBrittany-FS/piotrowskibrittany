@@ -44,7 +44,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Eventite</h2>
                     <img style={styles.projectImg} src={Eventite} alt="eventite"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js">More Info</a>
+                    <p>Eventite was created using React and connecting APIs to get information about events and add images that a user could use to openly display an event they were wanting to share.</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
                     <button>GitHub</button>
                 </div>
             </div>
@@ -52,7 +52,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>EveryBank</h2>
                     <img style={styles.projectImg} src={EveryBank} alt="every bank"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js">More Info</a>
+                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
                     <button>GitHub</button>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Popcorner</h2>
                     <img style={styles.projectImg} src={Popcorner} alt="popcorner"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js">More Info</a>
+                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
                     <button>GitHub</button>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Puparazzi</h2>
                     <img style={styles.projectImg} src={Puparazzi} alt="puparazzi"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js">More Info</a>
+                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
                     <button>GitHub</button>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Strive Simple</h2>
                     <img style={styles.projectImg} src={StriveSimple} alt="strive simple"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js">More Info</a>
+                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
                     <button>GitHub</button>
                 </div>
             </div>
@@ -84,7 +84,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Task Manager</h2>
                     <img style={styles.projectImg} src={TaskManager} alt="task manager"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js">More Info</a>
+                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
                     <button>GitHub</button>
                 </div>
             </div>
@@ -168,5 +168,8 @@ const styles ={
     projectImg: {
         width: '75%',
         height: '60%',
+    },
+    more: {
+        color: '#fff'
     }
 }
