@@ -16,11 +16,11 @@ const Home = () =>{
         <div style={styles.logoContainer}>
             <img style={styles.logo} src={Logo} alt="logo"></img>
         </div>
-        <div style={styles.container}>
+        <div style={styles.container} id="about">
             <h1 style={styles.title}>About Me</h1>
             <p style={styles.about}>My journey in web development began at Full Sail University where I studied HTML, CSS, JavaScript, Node.js, React, Express.js, C#, and SQL. Combining my technical expertise with a strong understanding of user experience, I process a holistic approach to web development that focuses on both aesthetics and functionality.</p>
         </div>
-        <div style={styles.container}>
+        <div style={styles.container} id="skills">
             <h1 style={styles.title}>Skills</h1>
             <div style={styles.skillsContainer}>
                 <p style={styles.skills}>HTML</p>
@@ -39,53 +39,53 @@ const Home = () =>{
             </div>
         </div>
         <div style={styles.container}>
-            <h1 style={styles.title}>Projects</h1>
+            <h1 style={styles.title} id="projects">Projects</h1>
             <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Eventite</h2>
                     <img style={styles.projectImg} src={Eventite} alt="eventite"></img>
-                    <p>Eventite was created using React and connecting APIs to get information about events and add images that a user could use to openly display an event they were wanting to share.</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
-                    <button>GitHub</button>
+                    <p>Eventite was created using React and connecting APIs to get information about events and add images that a user could use to openly display an event they were wanting to share.</p>
+                    <a href="https://github.com/PiotrowskiBrittany-FS/Piotrowski_Brittany_PRW/tree/dev" style={styles.github}>GitHub</a>
                 </div>
             </div>
             <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>EveryBank</h2>
                     <img style={styles.projectImg} src={EveryBank} alt="every bank"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
-                    <button>GitHub</button>
+                    <p>Snippet of Project</p>
+                    <a href="https://github.com/ePortfolios/wdd463-2305-PiotrowskiBrittany-FS/tree/production" style={styles.github}>GitHub</a>
                 </div>
             </div>
             <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Popcorner</h2>
                     <img style={styles.projectImg} src={Popcorner} alt="popcorner"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
-                    <button>GitHub</button>
+                    <p>Snippet of Project</p>
+                    <a href="https://github.com/PiotrowskiBrittany-FS/WD5" style={styles.github}>GitHub</a>
                 </div>
             </div>
             <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Puparazzi</h2>
                     <img style={styles.projectImg} src={Puparazzi} alt="puparazzi"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
-                    <button>GitHub</button>
+                    <p>Snippet of Project</p>
+                    <a href="https://github.com/PiotrowskiBrittany-FS/ProjectPortfolio3" style={styles.github}>GitHub</a>
                 </div>
             </div>
             <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Strive Simple</h2>
                     <img style={styles.projectImg} src={StriveSimple} alt="strive simple"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
-                    <button>GitHub</button>
+                    <p>Snippet of Project</p>
+                    <a href="https://github.com/PiotrowskiBrittany-FS/PiotrowskiBrittany-FS.github.io" style={styles.github}>GitHub</a>
                 </div>
             </div>
             <div style={styles.projectSection}>
                 <div style={styles.project}>
                     <h2>Task Manager</h2>
                     <img style={styles.projectImg} src={TaskManager} alt="task manager"></img>
-                    <p>Snippet of Project</p><a href="./pages/Eventite.js" style={styles.more}>More Info</a>
-                    <button>GitHub</button>
+                    <p>Snippet of Project</p>
+                    <a href="https://github.com/dws2/kanban-PiotrowskiBrittany-FS" style={styles.github}>GitHub</a>
                 </div>
             </div>
         </div>
@@ -159,17 +159,33 @@ const styles ={
         display: 'flex',
         justifyContent: 'center',
         flexWrap: 'wrap',
-        paddingBottom: '2.5rem'
+        paddingBottom: '2.5rem',
+        marginBottom: '2.5rem'
     },
     project: {
         padding: '1rem',
-        textAlign: 'center'
+        textAlign: 'center',
     },
     projectImg: {
         width: '75%',
         height: '60%',
     },
-    more: {
-        color: '#fff'
-    }
+    github: {
+        paddingTop: '0.50rem',
+        paddingBottom: '0.50rem',
+        paddingRight: '1.5rem',
+        paddingLeft: '1.5rem',
+        color: '#000',
+        borderStyle: 'solid',
+        borderWidth: '0px',
+        borderRadius: '10px',
+        boxShadow: "2px 2px 5px #071516",
+        backgroundColor: '#C4D1D2',
+        fontWeight: 'bold',
+        margin: '1.25rem',
+        textAlign: 'center',
+        fontSize: '12px',
+        textDecoration: 'none',
+        cursor: 'pointer'
+    },
 }
