@@ -8,6 +8,7 @@ import Popcorner from '../images/popcorner.png';
 import Puparazzi from '../images/puparazzi.png';
 import StriveSimple from '../images/strivesimple.png';
 import TaskManager from '../images/taskmanager.png';
+import ContactPhoto from '../images/contact.jpeg';
 
 
 const Home = () =>{
@@ -88,6 +89,23 @@ const Home = () =>{
                     <a href="https://github.com/dws2/kanban-PiotrowskiBrittany-FS" style={styles.github}>GitHub</a>
                 </div>
             </div>
+        </div>
+        <div style={styles.container} id="contact">
+            <h1 style={styles.title}>Contact Me</h1>
+            <div style={styles.contactContainer}>
+                <img style={styles.contactImg} src={ContactPhoto} alt="contact "></img>
+                <div style={styles.contact}>
+                    <p style={styles.contactInfo}>Phone: 404.307.0208</p>
+                    <p style={styles.contactInfo}>Email me @ piotrowskideveloper@gmail.com</p>
+                    <p style={styles.contactInfo}><a href="www.linkedin.com/in/brittany-piotrowski-ab80b815b" style={styles.linkedIn}>Message me on LinkedIn</a></p>
+                </div>
+                
+            </div>
+            
+
+        </div>
+        <div style={styles.container} id="resume">
+            <a href="www.linkedin.com/in/brittany-piotrowski-ab80b815b" style={styles.resume}><h1 style={styles.title}>Click here to see my Resume</h1></a>
         </div>
               
     </div>
@@ -188,4 +206,42 @@ const styles ={
         textDecoration: 'none',
         cursor: 'pointer'
     },
+    contactContainer: {
+        display: 'flex',
+        justifyContent: 'center'
+    },
+    contactImg: {
+        width: '25%',
+        height: '10%',
+        textAlign: 'center',
+        justifyContent: 'center',
+        padding: '1rem'
+    },
+    contactInfo: {
+        padding: '1rem'
+    },
+    contact: {
+        display: 'flex',
+        flexWrap: 'wrap'
+    },
+    linkedIn: {
+        paddingTop: '0.50rem',
+        paddingBottom: '0.50rem',
+        paddingRight: '1.5rem',
+        paddingLeft: '1.5rem',
+        color: '#000',
+        borderStyle: 'solid',
+        borderWidth: '0px',
+        borderRadius: '10px',
+        boxShadow: "2px 2px 5px #071516",
+        backgroundColor: '#C4D1D2',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        fontSize: '12px',
+        textDecoration: 'none',
+        cursor: 'pointer'
+    },
+    resume: {
+        textDecoration: 'none'
+    }
 }

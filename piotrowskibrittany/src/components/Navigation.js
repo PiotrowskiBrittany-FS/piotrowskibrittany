@@ -8,7 +8,7 @@ const Navigation = ()=>{
                 <a href="#skills" style={styles.links}>Skills</a>
                 <a href="#projects" style={styles.links}>Projects</a>
                 <a href="#contact" style={styles.links}>Contact</a>
-                <a href="www.linkedin.com/in/brittany-piotrowski-ab80b815b" style={styles.links}>Resume</a>
+                <a href="#resume" style={styles.links}>Resume</a>
             </div>
         </div>
     )
