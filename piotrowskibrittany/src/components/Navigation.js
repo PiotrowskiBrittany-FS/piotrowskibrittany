@@ -4,11 +4,11 @@ const Navigation = ()=>{
     return(
         <div style={styles.container}>
             <div style={styles.buttons}>
-                <a href="/" style={styles.links}>About</a>
-                <a href="/" style={styles.links}>Skills</a>
-                <a href="/" style={styles.links}>Projects</a>
-                <a href="/" style={styles.links}>Contact</a>
-                <a href="/" style={styles.links}>Resume</a>
+                <a href="#about" style={styles.links}>About</a>
+                <a href="#skills" style={styles.links}>Skills</a>
+                <a href="#projects" style={styles.links}>Projects</a>
+                <a href="#contact" style={styles.links}>Contact</a>
+                <a href="www.linkedin.com/in/brittany-piotrowski-ab80b815b" style={styles.links}>Resume</a>
             </div>
         </div>
     )
