@@ -6,8 +6,7 @@ import Eventite from '../images/eventite.png';
 import EveryBank from '../images/everybank.png';
 import Popcorner from '../images/popcorner.png';
 import Puparazzi from '../images/puparazzi.png';
-import StriveSimple from '../images/strivesimple.png';
-import TaskManager from '../images/taskmanager.png';
+
 import ContactPhoto from '../images/contact.jpeg';
 
 
@@ -19,7 +18,8 @@ const Home = () =>{
         </div>
         <div style={styles.container} id="about">
             <h1 style={styles.title}>About Me</h1>
-            <p style={styles.about}>My journey in web development began at Full Sail University where I studied HTML, CSS, JavaScript, Node.js, React, Express.js, C#, and SQL. Combining my technical expertise with a strong understanding of user experience, I process a holistic approach to web development that focuses on both aesthetics and functionality.</p>
+            <p style={styles.about}>As a web developer, I began at Full Sail University where I studied HTML, CSS, JavaScript, Node.js, React, Express.js, C#, and SQL. Combining my technical expertise with a strong understanding of user experience, I process a holistic approach to web development that focuses on both aesthetics and functionality.</p>
+            <p style={styles.about}>I have successfully designed and implemented various websites and web applications, utilizing my expertise in HTML, CSS, JavaScript, and responsive design principles in my time at Full Sail University. I have a proven record of accomplishment of collaborating with cross-functional teams to deliver high-quality projects on time and within budget. Additionally, my strong problem-solving skills and attention to detail have allowed me to identify and resolve complex technical issues efficiently. I believe in my technical skills, creativity, and ability to adapt to innovative technologies to accomplish any task given to me.</p>
         </div>
         <div style={styles.container} id="skills">
             <h1 style={styles.title}>Skills</h1>
@@ -45,7 +45,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Eventite</h2>
                     <img style={styles.projectImg} src={Eventite} alt="eventite"></img>
-                    <p>Eventite was created using React and connecting APIs to get information about events and add images that a user could use to openly display an event they were wanting to share.</p>
+                    <p style={styles.projectInfo}>Eventite was created using React and connecting APIs to get information about events and add images that a user could use to openly display an event they were wanting to share.</p>
                     <a href="https://github.com/PiotrowskiBrittany-FS/Piotrowski_Brittany_PRW/tree/dev" style={styles.github}>GitHub</a>
                 </div>
             </div>
@@ -53,7 +53,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>EveryBank</h2>
                     <img style={styles.projectImg} src={EveryBank} alt="every bank"></img>
-                    <p>Snippet of Project</p>
+                    <p style={styles.projectInfo}>Every Bank was created from scratch by using React and CSS. This application allows for users to add their bank account information from anywhere and give the application a name for the account. Users can also keep track of their credit cards and see a recommended payment to increase their credit score and credit limit.</p>
                     <a href="https://github.com/ePortfolios/wdd463-2305-PiotrowskiBrittany-FS/tree/production" style={styles.github}>GitHub</a>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Popcorner</h2>
                     <img style={styles.projectImg} src={Popcorner} alt="popcorner"></img>
-                    <p>Snippet of Project</p>
+                    <p style={styles.projectInfo}>Popcorner was build from scratch using React and connecting an API database called Movie DB. The application allows users to go from one page to another to find the latest movies, most popular movies and allows users to search for movies within the database.</p>
                     <a href="https://github.com/PiotrowskiBrittany-FS/WD5" style={styles.github}>GitHub</a>
                 </div>
             </div>
@@ -69,24 +69,8 @@ const Home = () =>{
                 <div style={styles.project}>
                     <h2>Puparazzi</h2>
                     <img style={styles.projectImg} src={Puparazzi} alt="puparazzi"></img>
-                    <p>Snippet of Project</p>
+                    <p style={styles.projectInfo}>Puparazzi was created from scratch using JavaScript, HTML, and CSS. The application allows users to post images to a social media for dog lovers. Users can also shop on an online store and view products and services in their area.</p>
                     <a href="https://github.com/PiotrowskiBrittany-FS/ProjectPortfolio3" style={styles.github}>GitHub</a>
-                </div>
-            </div>
-            <div style={styles.projectSection}>
-                <div style={styles.project}>
-                    <h2>Strive Simple</h2>
-                    <img style={styles.projectImg} src={StriveSimple} alt="strive simple"></img>
-                    <p>Snippet of Project</p>
-                    <a href="https://github.com/PiotrowskiBrittany-FS/PiotrowskiBrittany-FS.github.io" style={styles.github}>GitHub</a>
-                </div>
-            </div>
-            <div style={styles.projectSection}>
-                <div style={styles.project}>
-                    <h2>Task Manager</h2>
-                    <img style={styles.projectImg} src={TaskManager} alt="task manager"></img>
-                    <p>Snippet of Project</p>
-                    <a href="https://github.com/dws2/kanban-PiotrowskiBrittany-FS" style={styles.github}>GitHub</a>
                 </div>
             </div>
         </div>
@@ -187,6 +171,10 @@ const styles ={
     projectImg: {
         width: '75%',
         height: '60%',
+    },
+    projectnfo: {
+        paddingLeft: '2rem',
+        paddingRight: '2rem'
     },
     github: {
         paddingTop: '0.50rem',
